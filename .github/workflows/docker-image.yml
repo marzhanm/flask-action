@@ -29,8 +29,8 @@ jobs:
       uses: docker/login-action@65b78e6e13532edd9afa3aa52ac7964289d1a9c1
       with:
           registry: ghcr.io
-          username: ${{ github.actor }}
-          password: ${{ secrets.GITHUB_TOKEN }}
+          username: marzhanm
+          password: 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
     - name: Push to Docker registry
       id: push
       uses: docker/build-push-action@3b5e8027fcad23fda98b2e3ac259d8d67585f671
